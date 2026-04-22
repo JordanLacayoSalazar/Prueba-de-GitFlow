@@ -25,3 +25,7 @@ main
 > github crear pull request y revisar que quede de forma feature/menú → dev que la
 > rama de origen sea la nueva y se vaya a agregar a dev.
 > 2. Asegurarse de que no haya conflictos, aprobar el pull request y hacer el merge.
+
+| Info. adicional |
+| :- |
+| El archivo `python.c` es un tipo de librería que contiene pocas funciones básicas para arreglos que Python posee integradas en su lenguaje pero C no las tiene. En `main.c` se realizan unas pruebas de uso. |
