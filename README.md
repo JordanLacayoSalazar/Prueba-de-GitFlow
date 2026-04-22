@@ -18,3 +18,10 @@ main
 *feature*: Ramas temporales que salen de develop para trabajar en una funcionalidad específica. Una vez terminada la tarea, se fusionan de nuevo en develop.
 
 *bugfix*: Se crea a partir de la rama develop para corregir errores que se encuentran durante el ciclo de desarrollo normal. Una vez solucionado, se fusiona con develop.
+
+> [!NOTE]
+> Según el PDF adjuntado (material dado por un profesor), para realizar el merge en GitHub, se hace lo siguiente:
+> 1. Crear un **Pull request** de la rama que acaba de subir hacia dev, por ejemplo, dentro de
+> github crear pull request y revisar que quede de forma feature/menú → dev que la
+> rama de origen sea la nueva y se vaya a agregar a dev.
+> 2. Asegurarse de que no haya conflictos, aprobar el pull request y hacer el merge.
