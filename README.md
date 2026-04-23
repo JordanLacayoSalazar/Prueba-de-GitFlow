@@ -1,14 +1,14 @@
-# Gitflow
+# GitFlow
 
-Modelo de ramificación estructurado para Git, diseñado para gestionar el desarrollo de software complejo y las versiones mediante ramas predefinidas (master, develop, feature y bugfix). Fue creado por Vincent Driessen en 2010 para separar el código en desarrollo del de producción, siendo ideal para equipos grandes. 
+Modelo de ramificación estructurado para Git, diseñado para gestionar el desarrollo de software complejo y las versiones mediante ramas predefinidas (master o main, develop, feature, y bugfix). Fue creado por Vincent Driessen en 2010 para separar el código en desarrollo del de producción, siendo ideal para equipos grandes. 
 
 ### ***Ramas:***
 
 ```text
 main
-└── develop
-    ├── feature
-    └── bugfix 
+  └── develop
+         ├──── feature
+         └──── bugfix 
 ```
 
 **main (master)**: Contiene los códigos finales que los usuarios pueden usar. Cada "commit" representa una versión oficial.
@@ -28,4 +28,4 @@ main
 
 | Info. adicional |
 | :- |
-| El archivo `python.c` es un tipo de librería que contiene pocas funciones básicas para arreglos que Python posee integradas en su lenguaje pero C no las tiene. En `main.c` se realizan unas pruebas de uso. |
+| El archivo `python.c` es un tipo de librería que contiene pocas funciones básicas para arreglos que Python posee integradas en su lenguaje pero C no las tiene. En `main.c` se realizan algunas pruebas de uso. |
