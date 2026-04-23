@@ -1,6 +1,6 @@
 # Gitflow
 
-Modelo de ramificación estructurado para Git, diseñado para gestionar el desarrollo de software complejo y las versiones mediante ramas predefinidas (master, develop, feature, release, hotfix). Creado por Vincent Driessen en 2010, este flujo separa el código en desarrollo del de producción, siendo ideal para equipos grandes. 
+Modelo de ramificación estructurado para Git, diseñado para gestionar el desarrollo de software complejo y las versiones mediante ramas predefinidas (master, develop, feature y bugfix). Fue creado por Vincent Driessen en 2010 para separar el código en desarrollo del de producción, siendo ideal para equipos grandes. 
 
 ### ***Ramas:***
 
