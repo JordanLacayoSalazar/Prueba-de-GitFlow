@@ -7,8 +7,9 @@ Modelo de ramificación estructurado para Git, diseñado para gestionar el desar
 ```text
 main
   └── develop
-         ├──── feature
-         └──── bugfix 
+         ├──── feature/...
+         ├──── bugfix/...
+         └──── documentacion/...
 ```
 
 **main (master)**: Contiene los códigos finales que los usuarios pueden usar. Cada "commit" representa una versión oficial.
@@ -19,12 +20,24 @@ main
 
 *bugfix*: Se crea a partir de la rama develop para corregir errores que se encuentran durante el ciclo de desarrollo normal. Una vez solucionado, se fusiona con develop.
 
+*documentacion*: Rama que se crea desde develop para editar la documentación del `README.md`.
+
+---
+
+Según el PDF adjuntado (material dado por un profesor), para realizar el merge en GitHub, se hace lo siguiente:
+1. Crear un **Pull request** de la rama que acaba de subir hacia dev, por ejemplo, dentro de
+github crear pull request y revisar que quede de forma feature/menú → dev que la
+rama de origen sea la nueva y se vaya a agregar a dev.
+2. Asegurarse de que no haya conflictos, aprobar el pull request y hacer el merge.
+
+---
+
 > [!NOTE]
-> Según el PDF adjuntado (material dado por un profesor), para realizar el merge en GitHub, se hace lo siguiente:
-> 1. Crear un **Pull request** de la rama que acaba de subir hacia dev, por ejemplo, dentro de
-> github crear pull request y revisar que quede de forma feature/menú → dev que la
-> rama de origen sea la nueva y se vaya a agregar a dev.
-> 2. Asegurarse de que no haya conflictos, aprobar el pull request y hacer el merge.
+> - Las subramas de develop siempre deben tener en su nombre el tipo de rama y su descripción. Ejemplo: *feature/interfaz*. La barra diagonal es parte del nombre, no es una carpeta.
+> - Para las ediciones del `README.md`, también se debe seguir el GitFlow. Para ello, se debe crear la subrama *documentacion* desde develop. Ejemplo: *documentacion/readme_update*
+> - Cuando se hace merge de cualquier subrama hacia develop, se puede eliminar esa subrama sin problema porque todo quedó integrado en develop.
+
+---
 
 | Info. adicional |
 | :- |
